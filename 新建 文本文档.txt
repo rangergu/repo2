@@ -1,1 +1,14 @@
-12123213123
+右键点击需要添加到暂存区的文件找到tortoise选择add
+右键点击空白区找到commit->master
+
+ssh 生成密钥方式 在git bash中输入
+ ssh-keygen -t rsa   
+一路回车
+在c/users,22662/.ssh/id_rsa.pub 找密钥 公钥带pub
+在GitHub上点个人头像-setting-添加ssh密钥
+
+
+git remote add origin 与远程仓库建立连接 origin是远程仓库代号无所谓+路径 
+回车
+git push -u origin master
+回车
