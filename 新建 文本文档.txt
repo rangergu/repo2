@@ -1,14 +1,28 @@
+1.建立临时仓库（文件夹
 右键点击需要添加到暂存区的文件找到tortoise选择add
 右键点击空白区找到commit->master
 
+2.创建远程仓库GitHub
+创建仓库的时候不要点readme
+
+3.
 ssh 生成密钥方式 在git bash中输入
  ssh-keygen -t rsa   
 一路回车
 在c/users,22662/.ssh/id_rsa.pub 找密钥 公钥带pub
 在GitHub上点个人头像-setting-添加ssh密钥
 
-
+4.
 git remote add origin 与远程仓库建立连接 origin是远程仓库代号无所谓+路径 
 回车
 git push -u origin master
 回车
+
+
+也可以直接使用乌龟推送到远程仓库GitHub
+1.建立临时仓库和远程仓库的连接
+在文件夹空白处点右键，选择Gitsync，把之前用gitbash创建的远端仓库代号删除（remove
+复制ssh路径git@github.com:rangergu/repo2.git在git中的URL中，在git中点manage，起名
+putty密钥：先确认网络ssh客户端是不是ssh，如果不是，找到git安装目录Git-usr-bin找ssh
+回到remote 选择putty在c/users,22662/.ssh/id_中点所有文件选择私钥，点击add 再点确认
+点push
